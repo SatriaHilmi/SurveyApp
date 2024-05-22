@@ -1,0 +1,24 @@
+About SurveyApp!
+
+-- Ini merupakan studi kasus dari web dev internship FlooID yaitu studi kasus Survey Karyawan --
+
+Survey App merupakan aplikasi sederhana yang dapat melakukan CRUD dalam aplikasinya, yaitu karyawan yang dapat memberikan komentar kepada suatu pihak ataupun organisasi melalui survey yang dilakukan oleh karyawan. 
+
+--Langkah cara penggunaannya bisa dilakukan seperti cara dibawah--
+
+1. clone repository dengan perintah "git clone (--url repository)" pada command prompt atau Gitbash.
+2. setelah itu buka folder pada teks editor, lalu jalankan perintah "composer install" pada command prompt.
+3. copy file '.env.example' lalu rename menjadi '.env'.
+4. jalankan perintah "php artisan serve" setelah itu pada url Laravel default tambahkan "http://127.0.0.1:8000/task"
+5. setelah itu coba tambahkan data baru.
+
+--alur kerja aplikasi--
+
+1. aplikasi tanpa fitur login, dan langsung tambahkan data pada bagian "Create Survey".
+2. tambahkan data yang tercantum pada aplikasi, lalu klik "Create Comment".
+3. aplikasi akan langsung mengarah ke halaman 'home' yang menunjukkan semua survey dari karyawan.
+4. untuk mengedit dan menghapus data silahkan klik "edit" atau "delete" pada halaman 'home' yang tertera pada list survey.
+5. lalu isi form sesuai data yang ada.
+
+*catatan
+- database sudah ada silahkan jalankan perintah "php artisan migrate" pada command prompt lalu sesuaikan nama database pada file ".env", untuk jaga-jaga saya sudah menambahkan database aslinya pada folder "database/db".
